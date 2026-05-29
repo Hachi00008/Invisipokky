@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "player_tick":{
+            "trigger": "tick"
+        }
+    }
+}
