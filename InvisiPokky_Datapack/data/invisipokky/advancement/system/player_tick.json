@@ -3,5 +3,8 @@
         "player_tick":{
             "trigger": "tick"
         }
+    },
+    "rewards": {
+        "function": "invisipokky:player/tick"
     }
 }
