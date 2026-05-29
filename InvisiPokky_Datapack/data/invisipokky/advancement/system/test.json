@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "invisipokky:test"
+    }
+}
