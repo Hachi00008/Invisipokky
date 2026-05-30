@@ -1,0 +1,27 @@
+{
+    "display":{
+        "icon": {
+            "id": "ender_eye",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "description": "test_eye",
+        "title": "Test_Eye",
+        "announce_to_chat": false,
+        "background": "block/obsidian",
+        "frame": "task",
+        "hidden": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "get_test_eye":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"test_eye\"]}"
+                }
+            }
+        }
+    }
+}

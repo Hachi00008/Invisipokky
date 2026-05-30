@@ -3,5 +3,13 @@
         "max_format": [94,1],
         "min_format": [94,1],
         "description": "InvisiPokky Datapack"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/*"
+            }
+        ]
     }
 }
