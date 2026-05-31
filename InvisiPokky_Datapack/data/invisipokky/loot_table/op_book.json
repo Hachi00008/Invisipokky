@@ -21,7 +21,7 @@
                                 "written_book_content": {
                                     "title": "",
                                     "author": "",
-                                    "pages": [[{"text": "鬼決め\n"},{"text": "お試し開始", "color": "aqua", "click_event": {"action": "run_command","command": "data modify storage invisipokky:game game_state set value \"begining\""}}]]
+                                    "pages": [[{"text": "鬼決め\n"},{"text": "お試し開始", "color": "aqua", "click_event": {"action": "run_command","command": "data modify storage invisipokky:game game_state set value \"begining\""}},{"text": "\n\n\n"},{"text": "ゲームリセット","color": "red","underlined": true,"click_event": {"action": "run_command","command": "data modify storage invisipokky:game game_state set value \"none\""}}]]
                                 }
                             }
                         }

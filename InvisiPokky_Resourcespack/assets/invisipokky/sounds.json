@@ -1,0 +1,10 @@
+{
+    "levelup":{
+        "replace": true,
+        "sounds": [
+            {
+                "name": "random/levelup"
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "attack":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "custom_data": "{hunter_weapon:true}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "invisipokky:player/survivor/hurt_hunter"
+    }
+}
