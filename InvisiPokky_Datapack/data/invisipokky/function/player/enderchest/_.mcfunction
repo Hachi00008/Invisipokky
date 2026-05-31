@@ -17,7 +17,8 @@
     execute if predicate invisipokky:collection/doll_eye run item replace entity @s enderchest.2 with paper[minecraft:item_model="invisipokky:doll_eye",item_name=["",{text:"Doll Eye",color:"green"}],lore=[{text:"その緑の瞳は自由を求めるために。",color:"#88FF88"},{text:"その歌に込められた想いが輝いている",color:"#88FF88"}]]
     execute unless predicate invisipokky:collection/doll_eye run item replace entity @s enderchest.2 with gray_stained_glass_pane[item_name=["",{text:"Doll Eye",color:"gray"}],lore=[{text:"未解放",color:"red"}],custom_data={"no_open":true}]
 
-    execute run item replace entity @s enderchest.3 with gray_stained_glass_pane[item_name=["",{text:"***",color:"gray"}],lore=[{text:"未解放",color:"red"}],custom_data={"no_open":true}]
+    execute if predicate invisipokky:collection/soul_eye run item replace entity @s enderchest.3 with paper[minecraft:item_model="invisipokky:soul_eye",item_name=["",{text:"Soul ",color:"aqua"},{text:"Eye",color:"gold"}],lore=[{text:"その生きるという意志と共に。",color:"#88FFFF"},{text:"その意志を表すかのように力強く輝いている",color:"#FFCC33"}]]
+    execute unless predicate invisipokky:collection/soul_eye run item replace entity @s enderchest.3 with gray_stained_glass_pane[item_name=["",{text:"Soul Eye",color:"gray"}],lore=[{text:"未解放",color:"red"}],custom_data={"no_open":true}]
 
     execute run item replace entity @s enderchest.4 with gray_stained_glass_pane[item_name=["",{text:"***",color:"gray"}],lore=[{text:"未解放",color:"red"}],custom_data={"no_open":true}]
 

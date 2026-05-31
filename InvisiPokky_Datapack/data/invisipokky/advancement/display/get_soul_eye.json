@@ -1,0 +1,28 @@
+{
+    "parent":"invisipokky:display/root",
+    "display":{
+        "icon": {
+            "id": "ender_eye",
+            "components": {
+                "enchantment_glint_override": true,
+                "item_model": "invisipokky:soul_eye"
+            }
+        },
+        "description": [{"text": "力強い","color": "aqua"},{"text": "意志","color": "gold"}],
+        "title": [{"text": "Soul ", "color": "aqua"},{"text": "Eye","color": "gold"}],
+        "announce_to_chat": false,
+        "frame": "challenge",
+        "hidden": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "get_test_eye":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"soul_eye\"]}"
+                }
+            }
+        }
+    }
+}
