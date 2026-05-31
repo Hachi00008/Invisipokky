@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "written_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": [
+                                    {
+                                        "text": "ゲーム管理本",
+                                        "color": "aqua",
+                                        "underlined": true
+                                    }
+                                ],
+                                "written_book_content": {
+                                    "title": "",
+                                    "author": "",
+                                    "pages": [[{"text": "お試し開始", "color": "aqua", "click_event": {"action": "run_command","command": "data modify storage invisipokky:game game_state set value \"begining\""}}]]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
