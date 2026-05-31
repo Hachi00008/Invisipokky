@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "player",
+            "advancements": {
+                "invisipokky:display/get_survivor_eye": true
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parent":"invisipokky:display/root",
+    "display":{
+        "icon": {
+            "id": "ender_eye",
+            "components": {
+                "enchantment_glint_override": true,
+                "item_model": "invisipokky:doll_eye"
+            }
+        },
+        "description": {"text": "自由な歌声","color": "green"},
+        "title": {"text": "Doll Eye", "color": "green"},
+        "announce_to_chat": false,
+        "frame": "challenge",
+        "hidden": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "get_test_eye":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"doll_eye\"]}"
+                }
+            }
+        }
+    }
+}

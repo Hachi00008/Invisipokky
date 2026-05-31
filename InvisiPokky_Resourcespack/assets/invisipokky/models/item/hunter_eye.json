@@ -1,0 +1,6 @@
+{
+    "parent": "item/ender_eye",
+    "textures": {
+        "layer0":"invisipokky:item/hunter_eye"
+    }
+}

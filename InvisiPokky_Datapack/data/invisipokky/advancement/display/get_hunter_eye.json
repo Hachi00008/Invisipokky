@@ -1,17 +1,18 @@
 {
+    "parent":"invisipokky:display/root",
     "display":{
         "icon": {
             "id": "ender_eye",
             "components": {
-                "enchantment_glint_override": true
+                "enchantment_glint_override": true,
+                "item_model": "invisipokky:hunter_eye"
             }
         },
-        "description": "test_eye",
-        "title": "Test_Eye",
+        "description": {"text": "血生臭い匂い","color": "red"},
+        "title": {"text": "Hunter Eye", "color": "red"},
         "announce_to_chat": false,
-        "background": "block/obsidian",
-        "frame": "task",
-        "hidden": false,
+        "frame": "challenge",
+        "hidden": true,
         "show_toast": true
     },
     "criteria": {
@@ -19,7 +20,7 @@
             "trigger": "player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[\"test_eye\"]}"
+                    "nbt": "{Tags:[\"hunter_eye\"]}"
                 }
             }
         }

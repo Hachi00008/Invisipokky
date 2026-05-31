@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "ender_eye",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "InvisiPokky",
+        "description": "見えない恐怖からの逃走",
+        "announce_to_chat": false,
+        "background": "block/obsidian",
+        "frame": "task",
+        "hidden": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "tick"
+        }
+    }
+}
